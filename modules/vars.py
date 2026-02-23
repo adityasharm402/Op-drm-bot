@@ -20,7 +20,7 @@ if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
   
 #WEBHOOK = True  # Don't change this
-#PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+#PORT = int(os.environ.get("PORT", 10000))  # Default to 8000 if not set
 
 
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.......,.....,
